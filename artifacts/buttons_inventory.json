@@ -1,0 +1,3399 @@
+{
+  "screens": {
+    "admin_screen": [
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "🎨 Управление моделями",
+        "callback_data": "admin:models",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "🎨 Управление моделями",
+        "callback_data": "admin:models",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "👥 Управление пользователями",
+        "callback_data": "admin:users",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "🎨 Управление моделями",
+        "callback_data": "admin:users",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "📊 Аналитика",
+        "callback_data": "admin:analytics",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "🎨 Управление моделями",
+        "callback_data": "admin:analytics",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "📜 Лог действий",
+        "callback_data": "admin:log",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "👥 Управление пользователями",
+        "callback_data": "admin:log",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Закрыть",
+        "callback_data": "admin:close",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "📊 Аналитика",
+        "callback_data": "admin:close",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "🎁 Список бесплатных",
+        "callback_data": "admin:models:list_free",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "🎁 Список бесплатных",
+        "callback_data": "admin:models:list_free",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "➕ Сделать модель бесплатной",
+        "callback_data": "admin:models:add_free",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "🎁 Список бесплатных",
+        "callback_data": "admin:models:add_free",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "� Ресинк моделей из Kie API",
+        "callback_data": "admin:models:resync",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "🎁 Список бесплатных",
+        "callback_data": "admin:models:resync",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "�📊 Статистика моделей",
+        "callback_data": "admin:models:stats",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "➕ Сделать модель бесплатной",
+        "callback_data": "admin:models:stats",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "⚠️ Модели без schema",
+        "callback_data": "admin:models:broken",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "� Ресинк моделей из Kie API",
+        "callback_data": "admin:models:broken",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "�📊 Статистика моделей",
+        "callback_data": "admin:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:models",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:models",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "❌ Отмена",
+        "callback_data": "admin:models",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "❌ Отмена",
+        "callback_data": "admin:models",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "🎨 Управление моделями",
+        "callback_data": "admin:models",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "🎨 Управление моделями",
+        "callback_data": "admin:models",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ В админку",
+        "callback_data": "admin:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "🎨 Управление моделями",
+        "callback_data": "admin:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:models",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:models",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:models",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:models",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "🔍 Найти пользователя",
+        "callback_data": "admin:users:find",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "🔍 Найти пользователя",
+        "callback_data": "admin:users:find",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "💰 Начислить баланс",
+        "callback_data": "admin:users:topup",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "🔍 Найти пользователя",
+        "callback_data": "admin:users:topup",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "💸 Списать баланс",
+        "callback_data": "admin:users:charge",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "🔍 Найти пользователя",
+        "callback_data": "admin:users:charge",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "🚫 Заблокировать",
+        "callback_data": "admin:users:ban",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "💰 Начислить баланс",
+        "callback_data": "admin:users:ban",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "💸 Списать баланс",
+        "callback_data": "admin:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:users",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:users",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:users",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:users",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:users",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:users",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "❌ Отмена",
+        "callback_data": "admin:users",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "❌ Отмена",
+        "callback_data": "admin:users",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:users",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:users",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "📈 Топ моделей",
+        "callback_data": "admin:models:stats",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "📈 Топ моделей",
+        "callback_data": "admin:models:stats",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "❌ Ошибки",
+        "callback_data": "admin:analytics:errors",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "📈 Топ моделей",
+        "callback_data": "admin:analytics:errors",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "📈 Топ моделей",
+        "callback_data": "admin:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:analytics",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:analytics",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:analytics",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:analytics",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:models",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:models",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "🎨 Управление моделями",
+        "callback_data": "admin:models",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "🎨 Управление моделями",
+        "callback_data": "admin:models",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "👥 Управление пользователями",
+        "callback_data": "admin:users",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "🎨 Управление моделями",
+        "callback_data": "admin:users",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "📊 Аналитика",
+        "callback_data": "admin:analytics",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "🎨 Управление моделями",
+        "callback_data": "admin:analytics",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "📜 Лог действий",
+        "callback_data": "admin:log",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "👥 Управление пользователями",
+        "callback_data": "admin:log",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "📟 Что нового",
+        "callback_data": "admin:changelog",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "📊 Аналитика",
+        "callback_data": "admin:changelog",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Закрыть",
+        "callback_data": "admin:close",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "📜 Лог действий",
+        "callback_data": "admin:close",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "admin:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад к моделям",
+        "callback_data": "admin:models",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      },
+      {
+        "text": "◀️ Назад к моделям",
+        "callback_data": "admin:models",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py"
+      }
+    ],
+    "main_screen": [
+      {
+        "text": "📊 Statistics",
+        "callback_data": "admin_stats",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin_router.py"
+      },
+      {
+        "text": "📊 Statistics",
+        "callback_data": "admin_stats",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin_router.py"
+      },
+      {
+        "text": "❌ Error Logs (last 24h)",
+        "callback_data": "admin_logs_24h",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin_router.py"
+      },
+      {
+        "text": "📊 Statistics",
+        "callback_data": "admin_logs_24h",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin_router.py"
+      },
+      {
+        "text": "🔧 Model Management",
+        "callback_data": "admin_models",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin_router.py"
+      },
+      {
+        "text": "📊 Statistics",
+        "callback_data": "admin_models",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin_router.py"
+      },
+      {
+        "text": "🏥 System Health",
+        "callback_data": "admin_health",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin_router.py"
+      },
+      {
+        "text": "❌ Error Logs (last 24h)",
+        "callback_data": "admin_health",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin_router.py"
+      },
+      {
+        "text": "🗑️ Cleanup Logs",
+        "callback_data": "admin_cleanup",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin_router.py"
+      },
+      {
+        "text": "🔧 Model Management",
+        "callback_data": "admin_cleanup",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin_router.py"
+      },
+      {
+        "text": "🏠 Главное меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\error_handler.py"
+      },
+      {
+        "text": "🏠 Главное меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\error_handler.py"
+      },
+      {
+        "text": "🔄 Обновить меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\fallback.py"
+      },
+      {
+        "text": "🔄 Обновить меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\fallback.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "📊 Как работает ценообразование?",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ Пред",
+        "callback_data": "noop",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "❌ Отмена",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "❌ Отмена",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🔍 Новый поиск",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "⚠️ Аудио модели скоро появятся",
+        "callback_data": "noop",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "⚠️ Аудио модели скоро появятся",
+        "callback_data": "noop",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "⚠️ Аудио модели скоро появятся",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🔎 Новый поиск",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "ℹ️ Поддержка",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "💳 Пополнить",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🏠 В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🔁 Ещё раз",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🏠 В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🔁 Повторить",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "📂 Все категории",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "N/A",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "✅ Готово, перейти к подтверждению",
+        "callback_data": "opt_skip_all",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "✅ Готово, перейти к подтверждению",
+        "callback_data": "opt_skip_all",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "⏭ Пропустить все (использовать defaults)",
+        "callback_data": "opt_skip_all",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "✅ Готово, перейти к подтверждению",
+        "callback_data": "opt_skip_all",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "N/A",
+        "callback_data": "confirm",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "N/A",
+        "callback_data": "edit_prompt",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "N/A",
+        "callback_data": "back_to_input",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "💳 Баланс / Оплата",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🏠 В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🔁 Повторить",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🏠 В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🔁 Повторить",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py"
+      },
+      {
+        "text": "◀️ Главное меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "◀️ Главное меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\quick_actions.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\quick_actions.py"
+      },
+      {
+        "text": "N/A",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py"
+      },
+      {
+        "text": "🖼 Создать ещё",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py"
+      },
+      {
+        "text": "🔄 Попробовать снова",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py"
+      },
+      {
+        "text": "🔄 Попробовать снова",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py"
+      },
+      {
+        "text": "🔄 Попробовать снова",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py"
+      },
+      {
+        "text": "🔄 Попробовать снова",
+        "callback_data": "main_menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py"
+      }
+    ],
+    "balance_screen": [
+      {
+        "text": "💵 Пополнить",
+        "callback_data": "balance:topup",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py"
+      },
+      {
+        "text": "💵 Пополнить",
+        "callback_data": "balance:topup",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py"
+      },
+      {
+        "text": "❌ Отмена",
+        "callback_data": "balance:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py"
+      },
+      {
+        "text": "5000₽",
+        "callback_data": "balance:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py"
+      },
+      {
+        "text": "❌ Отмена",
+        "callback_data": "balance:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py"
+      },
+      {
+        "text": "✅ Я оплатил(а)",
+        "callback_data": "balance:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py"
+      },
+      {
+        "text": "❌ Отмена",
+        "callback_data": "balance:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py"
+      },
+      {
+        "text": "✅ Я оплатил(а)",
+        "callback_data": "balance:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py"
+      },
+      {
+        "text": "❌ Отмена",
+        "callback_data": "balance:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py"
+      },
+      {
+        "text": "❌ Отмена",
+        "callback_data": "balance:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py"
+      },
+      {
+        "text": "💳 Мой баланс",
+        "callback_data": "balance:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py"
+      },
+      {
+        "text": "💳 Мой баланс",
+        "callback_data": "balance:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py"
+      },
+      {
+        "text": "💳 Баланс",
+        "callback_data": "balance:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🔁 Повторить",
+        "callback_data": "balance:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "balance:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\history.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "balance:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\history.py"
+      },
+      {
+        "text": "💳 Баланс",
+        "callback_data": "balance:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "💳 Баланс",
+        "callback_data": "balance:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "💳 Пополнить",
+        "callback_data": "balance:topup",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "💳 Пополнить",
+        "callback_data": "balance:topup",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "💳 Пополнить",
+        "callback_data": "balance:topup",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "💳 Пополнить",
+        "callback_data": "balance:topup",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "💳 Пополнить",
+        "callback_data": "balance:topup",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "💳 Пополнить",
+        "callback_data": "balance:topup",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "💳 Баланс",
+        "callback_data": "balance:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "🎨 Новая генерация",
+        "callback_data": "balance:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      }
+    ],
+    "history_screen": [
+      {
+        "text": "📜 Вся история",
+        "callback_data": "history:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py"
+      },
+      {
+        "text": "💵 Пополнить",
+        "callback_data": "history:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py"
+      },
+      {
+        "text": "🖼️ Просмотр галереи",
+        "callback_data": "history:gallery",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\history.py"
+      },
+      {
+        "text": "🖼️ Просмотр галереи",
+        "callback_data": "history:gallery",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\history.py"
+      },
+      {
+        "text": "📊 История транзакций",
+        "callback_data": "history:transactions",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\history.py"
+      },
+      {
+        "text": "📊 История транзакций",
+        "callback_data": "history:transactions",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\history.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "history:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\history.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "history:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\history.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "history:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\history.py"
+      },
+      {
+        "text": "🔄 Создать ещё",
+        "callback_data": "history:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\history.py"
+      },
+      {
+        "text": "◀️ Назад к генерациям",
+        "callback_data": "history:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\history.py"
+      },
+      {
+        "text": "◀️ Назад к генерациям",
+        "callback_data": "history:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\history.py"
+      },
+      {
+        "text": "📜 История",
+        "callback_data": "history:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "💳 Баланс",
+        "callback_data": "history:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "📜 История",
+        "callback_data": "history:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "🎨 Новая генерация",
+        "callback_data": "history:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      }
+    ],
+    "marketing_screen": [
+      {
+        "text": "◀️ Назад",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py"
+      },
+      {
+        "text": "💵 Пополнить",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py"
+      },
+      {
+        "text": "💳 Мой баланс",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py"
+      },
+      {
+        "text": "🎁 Бесплатно попробовать",
+        "callback_data": "marketing:free",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "🎁 Бесплатно попробовать",
+        "callback_data": "marketing:free",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "🏠 Главное меню",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "🏠 Главное меню",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "💳 Пополнить",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "💳 Пополнить",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "❌ Отмена",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "✅ Подтвердить",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "💳 Пополнить",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "🎨 Новая генерация",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "🎨 Новая генерация",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "🔄 Попробовать снова",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "marketing:main",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      }
+    ],
+    "topup_screen": [
+      {
+        "text": "100₽",
+        "callback_data": "topup:amount:100",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py"
+      },
+      {
+        "text": "100₽",
+        "callback_data": "topup:amount:100",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py"
+      },
+      {
+        "text": "500₽",
+        "callback_data": "topup:amount:500",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py"
+      },
+      {
+        "text": "100₽",
+        "callback_data": "topup:amount:500",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py"
+      },
+      {
+        "text": "1000₽",
+        "callback_data": "topup:amount:1000",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py"
+      },
+      {
+        "text": "1000₽",
+        "callback_data": "topup:amount:1000",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py"
+      },
+      {
+        "text": "5000₽",
+        "callback_data": "topup:amount:5000",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py"
+      },
+      {
+        "text": "1000₽",
+        "callback_data": "topup:amount:5000",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py"
+      },
+      {
+        "text": "✅ Я оплатил(а)",
+        "callback_data": "topup:paid",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py"
+      },
+      {
+        "text": "✅ Я оплатил(а)",
+        "callback_data": "topup:paid",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py"
+      },
+      {
+        "text": "✅ Я оплатил(а)",
+        "callback_data": "topup:paid",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py"
+      },
+      {
+        "text": "✅ Я оплатил(а)",
+        "callback_data": "topup:paid",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py"
+      }
+    ],
+    "menu_screen": [
+      {
+        "text": "❓ Поддержка",
+        "callback_data": "menu:support",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\error_handler.py"
+      },
+      {
+        "text": "🏠 Главное меню",
+        "callback_data": "menu:support",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\error_handler.py"
+      },
+      {
+        "text": "⭐ Лучшие модели",
+        "callback_data": "menu:best",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "⭐ Лучшие модели",
+        "callback_data": "menu:best",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🔍 Поиск",
+        "callback_data": "menu:search",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "⭐ Лучшие модели",
+        "callback_data": "menu:search",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "📂 Все категории",
+        "callback_data": "menu:categories",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "📂 Все категории",
+        "callback_data": "menu:categories",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "💰 Баланс",
+        "callback_data": "menu:balance",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "💰 Баланс",
+        "callback_data": "menu:balance",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "📜 История",
+        "callback_data": "menu:history",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "💰 Баланс",
+        "callback_data": "menu:history",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "❓ Помощь",
+        "callback_data": "menu:help",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "📜 История",
+        "callback_data": "menu:help",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🔎 Все модели (по категориям)",
+        "callback_data": "menu:categories",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🔎 Все модели (по категориям)",
+        "callback_data": "menu:categories",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "⭐ Дешёвые / Бесплатные",
+        "callback_data": "menu:free",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🔎 Все модели (по категориям)",
+        "callback_data": "menu:free",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🧾 История генераций",
+        "callback_data": "menu:history",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🧾 История генераций",
+        "callback_data": "menu:history",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "💳 Баланс и пополнение",
+        "callback_data": "menu:balance",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🧾 История генераций",
+        "callback_data": "menu:balance",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🔍 Новый поиск",
+        "callback_data": "menu:search",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🔍 Новый поиск",
+        "callback_data": "menu:search",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🔎 Новый поиск",
+        "callback_data": "menu:search",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🔎 Новый поиск",
+        "callback_data": "menu:search",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "ℹ️ Поддержка",
+        "callback_data": "menu:support",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "ℹ️ Поддержка",
+        "callback_data": "menu:support",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "💳 Пополнить",
+        "callback_data": "menu:balance",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "💳 Пополнить",
+        "callback_data": "menu:balance",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "📂 Все категории",
+        "callback_data": "menu:categories",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "📂 Все категории",
+        "callback_data": "menu:categories",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "📂 Выбрать модель",
+        "callback_data": "menu:generate",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "◀️ В меню",
+        "callback_data": "menu:generate",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "💳 Баланс / Оплата",
+        "callback_data": "menu:balance",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "💳 Баланс / Оплата",
+        "callback_data": "menu:balance",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🚀 Генерация",
+        "callback_data": "menu:generate",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\zero_silence.py"
+      },
+      {
+        "text": "🚀 Генерация",
+        "callback_data": "menu:generate",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\zero_silence.py"
+      },
+      {
+        "text": "💳 Баланс / Оплата",
+        "callback_data": "menu:balance",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\zero_silence.py"
+      },
+      {
+        "text": "🚀 Генерация",
+        "callback_data": "menu:balance",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\zero_silence.py"
+      },
+      {
+        "text": "ℹ️ Поддержка",
+        "callback_data": "menu:support",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\zero_silence.py"
+      },
+      {
+        "text": "🚀 Генерация",
+        "callback_data": "menu:support",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\zero_silence.py"
+      }
+    ],
+    "cat_screen": [
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "cat:{category}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "cat:{cat_id}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🎬 Видео (Reels/TikTok/Ads)",
+        "callback_data": "cat:text-to-video",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🎬 Видео (Reels/TikTok/Ads)",
+        "callback_data": "cat:text-to-video",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🖼️ Картинка (баннер/пост/креатив)",
+        "callback_data": "cat:text-to-image",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🎬 Видео (Reels/TikTok/Ads)",
+        "callback_data": "cat:text-to-image",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "✨ Улучшить (апскейл/редакт)",
+        "callback_data": "cat:upscale",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🎬 Видео (Reels/TikTok/Ads)",
+        "callback_data": "cat:upscale",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🎙️ Аудио (озвучка/музыка)",
+        "callback_data": "cat:text-to-speech",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🖼️ Картинка (баннер/пост/креатив)",
+        "callback_data": "cat:text-to-speech",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "cat:{cat}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "cat:{cat}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      }
+    ],
+    "quick_screen": [
+      {
+        "text": "⚡ Быстрые действия",
+        "callback_data": "quick:menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "⚡ Быстрые действия",
+        "callback_data": "quick:menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🔄 Создать ещё",
+        "callback_data": "quick:menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\history.py"
+      },
+      {
+        "text": "🔄 Создать ещё",
+        "callback_data": "quick:menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\history.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "quick:action:{action_id}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\quick_actions.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "quick:examples:{action_id}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\quick_actions.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "quick:menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\quick_actions.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "quick:menu",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\quick_actions.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "quick:use:{action_id}:{idx}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\quick_actions.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "quick:action:{action_id}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\quick_actions.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "quick:examples:{action_id}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\quick_actions.py"
+      }
+    ],
+    "gallery_screen": [
+      {
+        "text": "🔥 Популярное",
+        "callback_data": "gallery:trending",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🔥 Популярное",
+        "callback_data": "gallery:trending",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🆓 Бесплатные",
+        "callback_data": "gallery:free",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🔥 Популярное",
+        "callback_data": "gallery:free",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "gallery:show:{model_id}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "gallery:trending",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py"
+      },
+      {
+        "text": "✨ Попробовать",
+        "callback_data": "gallery:trending",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "gallery:trending",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "gallery:trending",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "gallery:show:{model_id}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py"
+      }
+    ],
+    "help_screen": [
+      {
+        "text": "🆓 Как получить бесплатные генерации?",
+        "callback_data": "help:free",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🆓 Как получить бесплатные генерации?",
+        "callback_data": "help:free",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "💳 Как пополнить баланс?",
+        "callback_data": "help:topup",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🆓 Как получить бесплатные генерации?",
+        "callback_data": "help:topup",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "📊 Как работает ценообразование?",
+        "callback_data": "help:pricing",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🆓 Как получить бесплатные генерации?",
+        "callback_data": "help:pricing",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "🔧 Что делать при ошибке?",
+        "callback_data": "help:errors",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "💳 Как пополнить баланс?",
+        "callback_data": "help:errors",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      }
+    ],
+    "model_screen": [
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "model:{model_id}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "model:{model_id}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "model:{model_id}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "model:{model['model_id']}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "model:{model_id}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "model:{model_id}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "model:{model_id}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "model:{model_id}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "model:{model['id']}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\quick_actions.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "model:{recommended_model}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\quick_actions.py"
+      }
+    ],
+    "page_screen": [
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "page:{back_cb}:{page-1}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "page:{back_cb}:{page+1}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      }
+    ],
+    "gen_screen": [
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "gen:{model_id}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "gen:{flow_ctx.model_id}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "gen:{flow_ctx.model_id}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "gen:{model_id}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "gen:{recommended_model}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\quick_actions.py"
+      }
+    ],
+    "enum_screen": [
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "enum:{val}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      }
+    ],
+    "repeat_screen": [
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "repeat:{idx}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "repeat:{idx}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "repeat:{idx}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      }
+    ],
+    "opt_start_screen": [
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "opt_start:{opt_field}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py"
+      }
+    ],
+    "example_screen": [
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "example:use:{model_id}:{idx}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py"
+      }
+    ],
+    "mcat_screen": [
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "mcat:{cat_key}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      }
+    ],
+    "mmodel_screen": [
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "mmodel:{model_id}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "mmodel:{model_id}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "mmodel:{model_id}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "mmodel:{model_id}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      }
+    ],
+    "mcat_page_screen": [
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "mcat_page:{cat_key}:1",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "mcat_page:{cat_key}:{page-1}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "mcat_page:{cat_key}:{page+1}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      }
+    ],
+    "mgen_screen": [
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "mgen:start:{model_id}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "✅ Подтвердить",
+        "callback_data": "mgen:confirm",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      },
+      {
+        "text": "✅ Подтвердить",
+        "callback_data": "mgen:confirm",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py"
+      }
+    ],
+    "zimage_screen": [
+      {
+        "text": "N/A (dynamic)",
+        "callback_data": "zimage:ratio:{ratio}",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "zimage:start",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py"
+      },
+      {
+        "text": "◀️ Назад",
+        "callback_data": "zimage:start",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py"
+      },
+      {
+        "text": "🖼 Создать картинку",
+        "callback_data": "zimage:start",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py"
+      },
+      {
+        "text": "🖼 Создать картинку",
+        "callback_data": "zimage:start",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py"
+      },
+      {
+        "text": "🖼 Создать ещё",
+        "callback_data": "zimage:start",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py"
+      },
+      {
+        "text": "🖼 Создать ещё",
+        "callback_data": "zimage:start",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py"
+      },
+      {
+        "text": "🔄 Попробовать снова",
+        "callback_data": "zimage:start",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py"
+      },
+      {
+        "text": "🔄 Попробовать снова",
+        "callback_data": "zimage:start",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py"
+      },
+      {
+        "text": "🔄 Попробовать снова",
+        "callback_data": "zimage:start",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py"
+      },
+      {
+        "text": "🔄 Попробовать снова",
+        "callback_data": "zimage:start",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py"
+      },
+      {
+        "text": "🔄 Попробовать снова",
+        "callback_data": "zimage:start",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py"
+      },
+      {
+        "text": "🔄 Попробовать снова",
+        "callback_data": "zimage:start",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py"
+      },
+      {
+        "text": "🔄 Попробовать снова",
+        "callback_data": "zimage:start",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py"
+      },
+      {
+        "text": "🔄 Попробовать снова",
+        "callback_data": "zimage:start",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py"
+      }
+    ]
+  },
+  "buttons_by_callback": {
+    "admin:main": {
+      "button_text": "◀️ Назад",
+      "callback_data": "admin:main",
+      "line_number": 1169,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "admin:models": {
+      "button_text": "◀️ Назад к моделям",
+      "callback_data": "admin:models",
+      "line_number": 1235,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "admin:users": {
+      "button_text": "🎨 Управление моделями",
+      "callback_data": "admin:users",
+      "line_number": 1106,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "admin:analytics": {
+      "button_text": "🎨 Управление моделями",
+      "callback_data": "admin:analytics",
+      "line_number": 1107,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "admin:log": {
+      "button_text": "👥 Управление пользователями",
+      "callback_data": "admin:log",
+      "line_number": 1108,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "admin:close": {
+      "button_text": "📜 Лог действий",
+      "callback_data": "admin:close",
+      "line_number": 1110,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "admin:models:list_free": {
+      "button_text": "🎁 Список бесплатных",
+      "callback_data": "admin:models:list_free",
+      "line_number": 424,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "admin:models:add_free": {
+      "button_text": "🎁 Список бесплатных",
+      "callback_data": "admin:models:add_free",
+      "line_number": 425,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "admin:models:resync": {
+      "button_text": "🎁 Список бесплатных",
+      "callback_data": "admin:models:resync",
+      "line_number": 426,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "admin:models:stats": {
+      "button_text": "📈 Топ моделей",
+      "callback_data": "admin:models:stats",
+      "line_number": 890,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "admin:models:broken": {
+      "button_text": "� Ресинк моделей из Kie API",
+      "callback_data": "admin:models:broken",
+      "line_number": 428,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "admin:users:find": {
+      "button_text": "🔍 Найти пользователя",
+      "callback_data": "admin:users:find",
+      "line_number": 658,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "admin:users:topup": {
+      "button_text": "🔍 Найти пользователя",
+      "callback_data": "admin:users:topup",
+      "line_number": 659,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "admin:users:charge": {
+      "button_text": "🔍 Найти пользователя",
+      "callback_data": "admin:users:charge",
+      "line_number": 660,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "admin:users:ban": {
+      "button_text": "💰 Начислить баланс",
+      "callback_data": "admin:users:ban",
+      "line_number": 661,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "admin:analytics:errors": {
+      "button_text": "📈 Топ моделей",
+      "callback_data": "admin:analytics:errors",
+      "line_number": 891,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "admin:changelog": {
+      "button_text": "📊 Аналитика",
+      "callback_data": "admin:changelog",
+      "line_number": 1109,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "admin_stats": {
+      "button_text": "📊 Statistics",
+      "callback_data": "admin_stats",
+      "line_number": 53,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin_router.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "admin_logs_24h": {
+      "button_text": "📊 Statistics",
+      "callback_data": "admin_logs_24h",
+      "line_number": 54,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin_router.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "admin_models": {
+      "button_text": "📊 Statistics",
+      "callback_data": "admin_models",
+      "line_number": 55,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin_router.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "admin_health": {
+      "button_text": "❌ Error Logs (last 24h)",
+      "callback_data": "admin_health",
+      "line_number": 56,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin_router.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "admin_cleanup": {
+      "button_text": "🔧 Model Management",
+      "callback_data": "admin_cleanup",
+      "line_number": 57,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin_router.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "balance:topup": {
+      "button_text": "💳 Пополнить",
+      "callback_data": "balance:topup",
+      "line_number": 772,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "history:main": {
+      "button_text": "🎨 Новая генерация",
+      "callback_data": "history:main",
+      "line_number": 884,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "marketing:main": {
+      "button_text": "◀️ В меню",
+      "callback_data": "marketing:main",
+      "line_number": 988,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "topup:amount:100": {
+      "button_text": "100₽",
+      "callback_data": "topup:amount:100",
+      "line_number": 121,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "topup:amount:500": {
+      "button_text": "100₽",
+      "callback_data": "topup:amount:500",
+      "line_number": 122,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "topup:amount:1000": {
+      "button_text": "1000₽",
+      "callback_data": "topup:amount:1000",
+      "line_number": 125,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "topup:amount:5000": {
+      "button_text": "1000₽",
+      "callback_data": "topup:amount:5000",
+      "line_number": 126,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "balance:main": {
+      "button_text": "🎨 Новая генерация",
+      "callback_data": "balance:main",
+      "line_number": 883,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "topup:paid": {
+      "button_text": "✅ Я оплатил(а)",
+      "callback_data": "topup:paid",
+      "line_number": 232,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "main_menu": {
+      "button_text": "🔄 Попробовать снова",
+      "callback_data": "main_menu",
+      "line_number": 286,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "menu:support": {
+      "button_text": "🚀 Генерация",
+      "callback_data": "menu:support",
+      "line_number": 20,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\zero_silence.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "cat:{category}": {
+      "button_text": "N/A (dynamic)",
+      "callback_data": "cat:{category}",
+      "line_number": 215,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "type": "inline",
+      "context": "f_string_pattern",
+      "is_pattern": true
+    },
+    "cat:{cat_id}": {
+      "button_text": "N/A (dynamic)",
+      "callback_data": "cat:{cat_id}",
+      "line_number": 254,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "type": "inline",
+      "context": "f_string_pattern",
+      "is_pattern": true
+    },
+    "menu:best": {
+      "button_text": "⭐ Лучшие модели",
+      "callback_data": "menu:best",
+      "line_number": 258,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "menu:search": {
+      "button_text": "🔎 Новый поиск",
+      "callback_data": "menu:search",
+      "line_number": 1249,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "quick:menu": {
+      "button_text": "◀️ Назад",
+      "callback_data": "quick:menu",
+      "line_number": 165,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\quick_actions.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "gallery:trending": {
+      "button_text": "◀️ Назад",
+      "callback_data": "gallery:trending",
+      "line_number": 174,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "gallery:free": {
+      "button_text": "🔥 Популярное",
+      "callback_data": "gallery:free",
+      "line_number": 270,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "menu:categories": {
+      "button_text": "📂 Все категории",
+      "callback_data": "menu:categories",
+      "line_number": 1472,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "menu:balance": {
+      "button_text": "🚀 Генерация",
+      "callback_data": "menu:balance",
+      "line_number": 19,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\zero_silence.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "menu:history": {
+      "button_text": "🧾 История генераций",
+      "callback_data": "menu:history",
+      "line_number": 322,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "menu:help": {
+      "button_text": "📜 История",
+      "callback_data": "menu:help",
+      "line_number": 282,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "help:free": {
+      "button_text": "🆓 Как получить бесплатные генерации?",
+      "callback_data": "help:free",
+      "line_number": 291,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "help:topup": {
+      "button_text": "🆓 Как получить бесплатные генерации?",
+      "callback_data": "help:topup",
+      "line_number": 292,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "help:pricing": {
+      "button_text": "🆓 Как получить бесплатные генерации?",
+      "callback_data": "help:pricing",
+      "line_number": 293,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "help:errors": {
+      "button_text": "💳 Как пополнить баланс?",
+      "callback_data": "help:errors",
+      "line_number": 294,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "cat:text-to-video": {
+      "button_text": "🎬 Видео (Reels/TikTok/Ads)",
+      "callback_data": "cat:text-to-video",
+      "line_number": 312,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "cat:text-to-image": {
+      "button_text": "🎬 Видео (Reels/TikTok/Ads)",
+      "callback_data": "cat:text-to-image",
+      "line_number": 313,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "cat:upscale": {
+      "button_text": "🎬 Видео (Reels/TikTok/Ads)",
+      "callback_data": "cat:upscale",
+      "line_number": 314,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "cat:text-to-speech": {
+      "button_text": "🖼️ Картинка (баннер/пост/креатив)",
+      "callback_data": "cat:text-to-speech",
+      "line_number": 315,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "menu:free": {
+      "button_text": "🔎 Все модели (по категориям)",
+      "callback_data": "menu:free",
+      "line_number": 319,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "model:{model_id}": {
+      "button_text": "N/A (dynamic)",
+      "callback_data": "model:{model_id}",
+      "line_number": 244,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py",
+      "type": "inline",
+      "context": "f_string_pattern",
+      "is_pattern": true
+    },
+    "page:{back_cb}:{page-1}": {
+      "button_text": "N/A (dynamic)",
+      "callback_data": "page:{back_cb}:{page-1}",
+      "line_number": 392,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "type": "inline",
+      "context": "f_string_pattern",
+      "is_pattern": true
+    },
+    "noop": {
+      "button_text": "⚠️ Аудио модели скоро появятся",
+      "callback_data": "noop",
+      "line_number": 1171,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "page:{back_cb}:{page+1}": {
+      "button_text": "N/A (dynamic)",
+      "callback_data": "page:{back_cb}:{page+1}",
+      "line_number": 395,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "type": "inline",
+      "context": "f_string_pattern",
+      "is_pattern": true
+    },
+    "gen:{model_id}": {
+      "button_text": "N/A (dynamic)",
+      "callback_data": "gen:{model_id}",
+      "line_number": 216,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py",
+      "type": "inline",
+      "context": "f_string_pattern",
+      "is_pattern": true
+    },
+    "enum:{val}": {
+      "button_text": "N/A (dynamic)",
+      "callback_data": "enum:{val}",
+      "line_number": 676,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "type": "inline",
+      "context": "f_string_pattern",
+      "is_pattern": true
+    },
+    "model:{model['model_id']}": {
+      "button_text": "N/A (dynamic)",
+      "callback_data": "model:{model['model_id']}",
+      "line_number": 1117,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "type": "inline",
+      "context": "f_string_pattern",
+      "is_pattern": true
+    },
+    "cat:{cat}": {
+      "button_text": "N/A (dynamic)",
+      "callback_data": "cat:{cat}",
+      "line_number": 1169,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "type": "inline",
+      "context": "f_string_pattern",
+      "is_pattern": true
+    },
+    "repeat:{idx}": {
+      "button_text": "N/A (dynamic)",
+      "callback_data": "repeat:{idx}",
+      "line_number": 1420,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "type": "inline",
+      "context": "f_string_pattern",
+      "is_pattern": true
+    },
+    "opt_start:{opt_field}": {
+      "button_text": "N/A (dynamic)",
+      "callback_data": "opt_start:{opt_field}",
+      "line_number": 1791,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "type": "inline",
+      "context": "f_string_pattern",
+      "is_pattern": true
+    },
+    "opt_skip_all": {
+      "button_text": "✅ Готово, перейти к подтверждению",
+      "callback_data": "opt_skip_all",
+      "line_number": 1798,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "confirm": {
+      "button_text": "N/A",
+      "callback_data": "confirm",
+      "line_number": 1976,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "edit_prompt": {
+      "button_text": "N/A",
+      "callback_data": "edit_prompt",
+      "line_number": 1977,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "back_to_input": {
+      "button_text": "N/A",
+      "callback_data": "back_to_input",
+      "line_number": 1978,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "menu:generate": {
+      "button_text": "🚀 Генерация",
+      "callback_data": "menu:generate",
+      "line_number": 18,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\zero_silence.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "gen:{flow_ctx.model_id}": {
+      "button_text": "N/A (dynamic)",
+      "callback_data": "gen:{flow_ctx.model_id}",
+      "line_number": 2136,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "type": "inline",
+      "context": "f_string_pattern",
+      "is_pattern": true
+    },
+    "gallery:show:{model_id}": {
+      "button_text": "N/A (dynamic)",
+      "callback_data": "gallery:show:{model_id}",
+      "line_number": 218,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py",
+      "type": "inline",
+      "context": "f_string_pattern",
+      "is_pattern": true
+    },
+    "example:use:{model_id}:{idx}": {
+      "button_text": "N/A (dynamic)",
+      "callback_data": "example:use:{model_id}:{idx}",
+      "line_number": 166,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py",
+      "type": "inline",
+      "context": "f_string_pattern",
+      "is_pattern": true
+    },
+    "history:gallery": {
+      "button_text": "🖼️ Просмотр галереи",
+      "callback_data": "history:gallery",
+      "line_number": 95,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\history.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "history:transactions": {
+      "button_text": "📊 История транзакций",
+      "callback_data": "history:transactions",
+      "line_number": 99,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\history.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "mcat:{cat_key}": {
+      "button_text": "N/A (dynamic)",
+      "callback_data": "mcat:{cat_key}",
+      "line_number": 173,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+      "type": "inline",
+      "context": "f_string_pattern",
+      "is_pattern": true
+    },
+    "marketing:free": {
+      "button_text": "🎁 Бесплатно попробовать",
+      "callback_data": "marketing:free",
+      "line_number": 179,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "mmodel:{model_id}": {
+      "button_text": "N/A (dynamic)",
+      "callback_data": "mmodel:{model_id}",
+      "line_number": 954,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+      "type": "inline",
+      "context": "f_string_pattern",
+      "is_pattern": true
+    },
+    "mcat_page:{cat_key}:1": {
+      "button_text": "N/A (dynamic)",
+      "callback_data": "mcat_page:{cat_key}:1",
+      "line_number": 334,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+      "type": "inline",
+      "context": "f_string_pattern",
+      "is_pattern": true
+    },
+    "mcat_page:{cat_key}:{page-1}": {
+      "button_text": "N/A (dynamic)",
+      "callback_data": "mcat_page:{cat_key}:{page-1}",
+      "line_number": 428,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+      "type": "inline",
+      "context": "f_string_pattern",
+      "is_pattern": true
+    },
+    "mcat_page:{cat_key}:{page+1}": {
+      "button_text": "N/A (dynamic)",
+      "callback_data": "mcat_page:{cat_key}:{page+1}",
+      "line_number": 433,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+      "type": "inline",
+      "context": "f_string_pattern",
+      "is_pattern": true
+    },
+    "mgen:start:{model_id}": {
+      "button_text": "N/A (dynamic)",
+      "callback_data": "mgen:start:{model_id}",
+      "line_number": 520,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+      "type": "inline",
+      "context": "f_string_pattern",
+      "is_pattern": true
+    },
+    "mgen:confirm": {
+      "button_text": "✅ Подтвердить",
+      "callback_data": "mgen:confirm",
+      "line_number": 701,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    },
+    "quick:action:{action_id}": {
+      "button_text": "N/A (dynamic)",
+      "callback_data": "quick:action:{action_id}",
+      "line_number": 207,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\quick_actions.py",
+      "type": "inline",
+      "context": "f_string_pattern",
+      "is_pattern": true
+    },
+    "model:{model['id']}": {
+      "button_text": "N/A (dynamic)",
+      "callback_data": "model:{model['id']}",
+      "line_number": 152,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\quick_actions.py",
+      "type": "inline",
+      "context": "f_string_pattern",
+      "is_pattern": true
+    },
+    "quick:examples:{action_id}": {
+      "button_text": "N/A (dynamic)",
+      "callback_data": "quick:examples:{action_id}",
+      "line_number": 256,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\quick_actions.py",
+      "type": "inline",
+      "context": "f_string_pattern",
+      "is_pattern": true
+    },
+    "quick:use:{action_id}:{idx}": {
+      "button_text": "N/A (dynamic)",
+      "callback_data": "quick:use:{action_id}:{idx}",
+      "line_number": 202,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\quick_actions.py",
+      "type": "inline",
+      "context": "f_string_pattern",
+      "is_pattern": true
+    },
+    "gen:{recommended_model}": {
+      "button_text": "N/A (dynamic)",
+      "callback_data": "gen:{recommended_model}",
+      "line_number": 254,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\quick_actions.py",
+      "type": "inline",
+      "context": "f_string_pattern",
+      "is_pattern": true
+    },
+    "model:{recommended_model}": {
+      "button_text": "N/A (dynamic)",
+      "callback_data": "model:{recommended_model}",
+      "line_number": 255,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\quick_actions.py",
+      "type": "inline",
+      "context": "f_string_pattern",
+      "is_pattern": true
+    },
+    "zimage:ratio:{ratio}": {
+      "button_text": "N/A (dynamic)",
+      "callback_data": "zimage:ratio:{ratio}",
+      "line_number": 80,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py",
+      "type": "inline",
+      "context": "f_string_pattern",
+      "is_pattern": true
+    },
+    "zimage:start": {
+      "button_text": "🔄 Попробовать снова",
+      "callback_data": "zimage:start",
+      "line_number": 285,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py",
+      "type": "inline",
+      "context": "callback_data_only"
+    }
+  },
+  "handlers_by_callback": {
+    "admin_stats": {
+      "callback_data_pattern": "admin_stats",
+      "handler_name": "cb_admin_stats",
+      "line_number": 71,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "match_type": "exact"
+    },
+    "admin_logs_24h": {
+      "callback_data_pattern": "admin_logs_24h",
+      "handler_name": "cb_admin_logs_24h",
+      "line_number": 83,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "match_type": "exact"
+    },
+    "admin_models": {
+      "callback_data_pattern": "admin_models",
+      "handler_name": "cb_admin_models_legacy",
+      "line_number": 95,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "match_type": "exact"
+    },
+    "admin_health": {
+      "callback_data_pattern": "admin_health",
+      "handler_name": "cb_admin_health",
+      "line_number": 107,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "match_type": "exact"
+    },
+    "admin_cleanup": {
+      "callback_data_pattern": "admin_cleanup",
+      "handler_name": "cb_admin_cleanup",
+      "line_number": 132,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "match_type": "exact"
+    },
+    "admin:close": {
+      "callback_data_pattern": "admin:close",
+      "handler_name": "cb_admin_close",
+      "line_number": 387,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "match_type": "exact"
+    },
+    "admin:models": {
+      "callback_data_pattern": "admin:models",
+      "handler_name": "cb_admin_models",
+      "line_number": 397,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "match_type": "exact"
+    },
+    "admin:models:list_free": {
+      "callback_data_pattern": "admin:models:list_free",
+      "handler_name": "cb_admin_models_list_free",
+      "line_number": 436,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "match_type": "exact"
+    },
+    "admin:models:add_free": {
+      "callback_data_pattern": "admin:models:add_free",
+      "handler_name": "cb_admin_models_add_free",
+      "line_number": 483,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "match_type": "exact"
+    },
+    "admin:models:stats": {
+      "callback_data_pattern": "admin:models:stats",
+      "handler_name": "cb_admin_models_stats",
+      "line_number": 575,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "match_type": "exact"
+    },
+    "admin:users": {
+      "callback_data_pattern": "admin:users",
+      "handler_name": "cb_admin_users",
+      "line_number": 645,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "match_type": "exact"
+    },
+    "admin:users:topup": {
+      "callback_data_pattern": "admin:users:topup",
+      "handler_name": "cb_admin_users_topup",
+      "line_number": 669,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "match_type": "exact"
+    },
+    "admin:users:charge": {
+      "callback_data_pattern": "admin:users:charge",
+      "handler_name": "cb_admin_users_charge",
+      "line_number": 687,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "match_type": "exact"
+    },
+    "admin:users:ban": {
+      "callback_data_pattern": "admin:users:ban",
+      "handler_name": "cb_admin_users_ban",
+      "line_number": 705,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "match_type": "exact"
+    },
+    "admin:users:find": {
+      "callback_data_pattern": "admin:users:find",
+      "handler_name": "cb_admin_users_find",
+      "line_number": 723,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "match_type": "exact"
+    },
+    "admin:analytics": {
+      "callback_data_pattern": "admin:analytics",
+      "handler_name": "cb_admin_analytics",
+      "line_number": 795,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "match_type": "exact"
+    },
+    "admin:analytics:errors": {
+      "callback_data_pattern": "admin:analytics:errors",
+      "handler_name": "cb_admin_analytics_errors",
+      "line_number": 921,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "match_type": "exact"
+    },
+    "admin:log": {
+      "callback_data_pattern": "admin:log",
+      "handler_name": "cb_admin_log",
+      "line_number": 994,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "match_type": "exact"
+    },
+    "admin:models:broken": {
+      "callback_data_pattern": "admin:models:broken",
+      "handler_name": "cb_admin_models_broken",
+      "line_number": 1024,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "match_type": "exact"
+    },
+    "admin:main": {
+      "callback_data_pattern": "admin:main",
+      "handler_name": "cb_admin_main",
+      "line_number": 1090,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "match_type": "exact"
+    },
+    "admin:changelog": {
+      "callback_data_pattern": "admin:changelog",
+      "handler_name": "cb_admin_changelog",
+      "line_number": 1117,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "match_type": "exact"
+    },
+    "admin:models:resync": {
+      "callback_data_pattern": "admin:models:resync",
+      "handler_name": "cb_admin_models_resync",
+      "line_number": 1176,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+      "match_type": "exact"
+    },
+    "balance:main": {
+      "callback_data_pattern": "balance:main",
+      "handler_name": "cb_balance_main",
+      "line_number": 40,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py",
+      "match_type": "exact"
+    },
+    "balance:topup": {
+      "callback_data_pattern": "balance:topup",
+      "handler_name": "cb_balance_topup",
+      "line_number": 111,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py",
+      "match_type": "exact"
+    },
+    "topup:amount:*": {
+      "callback_data_pattern": "topup:amount:*",
+      "handler_name": "cb_topup_preset",
+      "line_number": 136,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py",
+      "match_type": "prefix"
+    },
+    "topup:paid": {
+      "callback_data_pattern": "topup:paid",
+      "handler_name": "cb_topup_paid",
+      "line_number": 239,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py",
+      "match_type": "exact"
+    },
+    "main_menu": {
+      "callback_data_pattern": "main_menu",
+      "handler_name": "main_menu_cb",
+      "line_number": 756,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "exact"
+    },
+    "menu:help": {
+      "callback_data_pattern": "menu:help",
+      "handler_name": "help_menu_cb",
+      "line_number": 778,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "exact"
+    },
+    "help:free": {
+      "callback_data_pattern": "help:free",
+      "handler_name": "help_free_cb",
+      "line_number": 788,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "exact"
+    },
+    "help:topup": {
+      "callback_data_pattern": "help:topup",
+      "handler_name": "help_topup_cb",
+      "line_number": 806,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "exact"
+    },
+    "help:pricing": {
+      "callback_data_pattern": "help:pricing",
+      "handler_name": "help_pricing_cb",
+      "line_number": 824,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "exact"
+    },
+    "help:errors": {
+      "callback_data_pattern": "help:errors",
+      "handler_name": "help_errors_cb",
+      "line_number": 844,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "exact"
+    },
+    "menu:best": {
+      "callback_data_pattern": "menu:best",
+      "handler_name": "best_models_cb",
+      "line_number": 866,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "exact"
+    },
+    "menu:search": {
+      "callback_data_pattern": "menu:search",
+      "handler_name": "search_menu_cb",
+      "line_number": 1209,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "exact"
+    },
+    "menu:generate": {
+      "callback_data_pattern": "menu:generate",
+      "handler_name": "generate_menu_cb",
+      "line_number": 1040,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "exact"
+    },
+    "menu:all_categories": {
+      "callback_data_pattern": "menu:all_categories",
+      "handler_name": "all_categories_cb",
+      "line_number": 1050,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "exact"
+    },
+    "menu:categories": {
+      "callback_data_pattern": "menu:categories",
+      "handler_name": "categories_cb",
+      "line_number": 1061,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "exact"
+    },
+    "menu:free": {
+      "callback_data_pattern": "menu:free",
+      "handler_name": "free_models_cb",
+      "line_number": 1072,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "exact"
+    },
+    "menu:edit": {
+      "callback_data_pattern": "menu:edit",
+      "handler_name": "edit_menu_cb",
+      "line_number": 1139,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "exact"
+    },
+    "menu:audio": {
+      "callback_data_pattern": "menu:audio",
+      "handler_name": "audio_menu_cb",
+      "line_number": 1158,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "exact"
+    },
+    "menu:top": {
+      "callback_data_pattern": "menu:top",
+      "handler_name": "top_menu_cb",
+      "line_number": 1179,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "exact"
+    },
+    "support": {
+      "callback_data_pattern": "support",
+      "handler_name": "support_cb",
+      "line_number": 1264,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "in_set"
+    },
+    "menu:support": {
+      "callback_data_pattern": "menu:support",
+      "handler_name": "support_cb",
+      "line_number": 1264,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "in_set"
+    },
+    "balance": {
+      "callback_data_pattern": "balance",
+      "handler_name": "balance_cb",
+      "line_number": 1281,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "in_set"
+    },
+    "menu:balance": {
+      "callback_data_pattern": "menu:balance",
+      "handler_name": "balance_cb",
+      "line_number": 1281,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "in_set"
+    },
+    "menu:history": {
+      "callback_data_pattern": "menu:history",
+      "handler_name": "history_cb",
+      "line_number": 1297,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "exact"
+    },
+    "repeat:*": {
+      "callback_data_pattern": "repeat:*",
+      "handler_name": "repeat_cb",
+      "line_number": 1335,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "prefix"
+    },
+    "cat:*": {
+      "callback_data_pattern": "cat:*",
+      "handler_name": "category_cb",
+      "line_number": 1427,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "prefix"
+    },
+    "page:*": {
+      "callback_data_pattern": "page:*",
+      "handler_name": "page_cb",
+      "line_number": 1516,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "prefix"
+    },
+    "noop": {
+      "callback_data_pattern": "noop",
+      "handler_name": "noop_cb",
+      "line_number": 1550,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "exact"
+    },
+    "model:*": {
+      "callback_data_pattern": "model:*",
+      "handler_name": "model_cb",
+      "line_number": 1556,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "prefix"
+    },
+    "gen:*": {
+      "callback_data_pattern": "gen:*",
+      "handler_name": "generate_cb",
+      "line_number": 1578,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "prefix"
+    },
+    "enum:*": {
+      "callback_data_pattern": "enum:*",
+      "handler_name": "enum_cb",
+      "line_number": 1650,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "prefix"
+    },
+    "opt_skip_all": {
+      "callback_data_pattern": "opt_skip_all",
+      "handler_name": "opt_skip_all_cb",
+      "line_number": 1657,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "exact"
+    },
+    "opt_start:*": {
+      "callback_data_pattern": "opt_start:*",
+      "handler_name": "opt_start_cb",
+      "line_number": 1667,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "prefix"
+    },
+    "cancel": {
+      "callback_data_pattern": "cancel",
+      "handler_name": "cancel_cb",
+      "line_number": 1984,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "exact"
+    },
+    "confirm": {
+      "callback_data_pattern": "confirm",
+      "handler_name": "confirm_cb",
+      "line_number": 1994,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+      "match_type": "exact"
+    },
+    "gallery:trending": {
+      "callback_data_pattern": "gallery:trending",
+      "handler_name": "show_trending_gallery",
+      "line_number": 79,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py",
+      "match_type": "exact"
+    },
+    "gallery:show:*": {
+      "callback_data_pattern": "gallery:show:*",
+      "handler_name": "show_model_gallery",
+      "line_number": 118,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py",
+      "match_type": "prefix"
+    },
+    "example:use:*": {
+      "callback_data_pattern": "example:use:*",
+      "handler_name": "use_example",
+      "line_number": 183,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py",
+      "match_type": "prefix"
+    },
+    "gallery:free": {
+      "callback_data_pattern": "gallery:free",
+      "handler_name": "show_free_models",
+      "line_number": 223,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py",
+      "match_type": "exact"
+    },
+    "history:main": {
+      "callback_data_pattern": "history:main",
+      "handler_name": "cb_history_main",
+      "line_number": 38,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\history.py",
+      "match_type": "exact"
+    },
+    "history:gallery": {
+      "callback_data_pattern": "history:gallery",
+      "handler_name": "cb_history_gallery",
+      "line_number": 111,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\history.py",
+      "match_type": "exact"
+    },
+    "history:transactions": {
+      "callback_data_pattern": "history:transactions",
+      "handler_name": "cb_history_transactions",
+      "line_number": 178,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\history.py",
+      "match_type": "exact"
+    },
+    "marketing:main": {
+      "callback_data_pattern": "marketing:main",
+      "handler_name": "cb_marketing_main",
+      "line_number": 134,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+      "match_type": "exact"
+    },
+    "marketing:free": {
+      "callback_data_pattern": "marketing:free",
+      "handler_name": "cb_marketing_free",
+      "line_number": 192,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+      "match_type": "exact"
+    },
+    "mcat:*": {
+      "callback_data_pattern": "mcat:*",
+      "handler_name": "cb_marketing_category",
+      "line_number": 247,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+      "match_type": "prefix"
+    },
+    "mcat_page:*": {
+      "callback_data_pattern": "mcat_page:*",
+      "handler_name": "cb_category_page",
+      "line_number": 345,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+      "match_type": "prefix"
+    },
+    "mmodel:*": {
+      "callback_data_pattern": "mmodel:*",
+      "handler_name": "cb_model_details",
+      "line_number": 459,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+      "match_type": "prefix"
+    },
+    "mgen:start:*": {
+      "callback_data_pattern": "mgen:start:*",
+      "handler_name": "cb_start_generation",
+      "line_number": 529,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+      "match_type": "prefix"
+    },
+    "mgen:confirm": {
+      "callback_data_pattern": "mgen:confirm",
+      "handler_name": "cb_confirm_generation",
+      "line_number": 708,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+      "match_type": "exact"
+    },
+    "quick:menu": {
+      "callback_data_pattern": "quick:menu",
+      "handler_name": "show_quick_actions",
+      "line_number": 89,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\quick_actions.py",
+      "match_type": "exact"
+    },
+    "quick:action:*": {
+      "callback_data_pattern": "quick:action:*",
+      "handler_name": "show_action_details",
+      "line_number": 113,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\quick_actions.py",
+      "match_type": "prefix"
+    },
+    "quick:examples:*": {
+      "callback_data_pattern": "quick:examples:*",
+      "handler_name": "show_action_examples",
+      "line_number": 174,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\quick_actions.py",
+      "match_type": "prefix"
+    },
+    "quick:use:*": {
+      "callback_data_pattern": "quick:use:*",
+      "handler_name": "use_quick_example",
+      "line_number": 216,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\quick_actions.py",
+      "match_type": "prefix"
+    },
+    "zimage:start": {
+      "callback_data_pattern": "zimage:start",
+      "handler_name": "zimage_start",
+      "line_number": 40,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py",
+      "match_type": "exact"
+    },
+    "zimage:ratio:*": {
+      "callback_data_pattern": "zimage:ratio:*",
+      "handler_name": "zimage_generate",
+      "line_number": 95,
+      "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py",
+      "match_type": "prefix"
+    }
+  },
+  "coverage": {
+    "total_buttons": 410,
+    "buttons_with_handlers": 87,
+    "buttons_without_handlers": [
+      "edit_prompt",
+      "back_to_input"
+    ],
+    "handlers_without_buttons": [
+      "menu:all_categories",
+      "menu:edit",
+      "menu:audio",
+      "menu:top",
+      "support",
+      "balance",
+      "cancel"
+    ]
+  }
+}

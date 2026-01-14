@@ -1,0 +1,268 @@
+"""
+Kie.ai API Client V4 - поддержка новой category-specific архитектуры.
+Работает параллельно со старым client для совместимости.
+"""
+import asyncio
+import logging
+import os
+from typing import Dict, Any, Optional
+
+import requests
+from tenacity import (
+    retry,
+    stop_after_attempt,
+    wait_exponential,
+    retry_if_exception_type,
+    before_sleep_log
+)
+
+from app.kie.router import (
+    get_api_category_for_model,
+    get_api_endpoint_for_model,
+    get_base_url_for_category,
+    load_v4_source_of_truth
+)
+
+logger = logging.getLogger(__name__)
+
+
+class KieApiClientV4:
+    """
+    API client для новой архитектуры Kie.ai (v4).
+    Поддерживает category-specific endpoints.
+    """
+    
+    def __init__(self, api_key: str | None = None, timeout: int = 30) -> None:
+        self.api_key = api_key or os.getenv("KIE_API_KEY")
+        if not self.api_key:
+            raise ValueError("KIE_API_KEY environment variable is required")
+        
+        self.timeout = timeout
+        self.source_v4 = load_v4_source_of_truth()
+        
+    def _headers(self) -> Dict[str, str]:
+        return {
+            "Authorization": f"Bearer {self.api_key}",
+            "Content-Type": "application/json",
+        }
+    
+    @retry(
+        stop=stop_after_attempt(3),
+        wait=wait_exponential(multiplier=1, min=2, max=10),
+        retry=retry_if_exception_type((requests.ConnectionError, requests.Timeout)),
+        before_sleep=before_sleep_log(logger, logging.WARNING)
+    )
+    def _make_request(self, url: str, payload: Dict[str, Any]) -> requests.Response:
+        """
+        Make HTTP request with automatic retry.
+        
+        Retries on:
+        - ConnectionError (network issues)
+        - Timeout (slow response)
+        
+        Does NOT retry on:
+        - 4xx errors (client errors - bad request)
+        - 5xx errors (server errors - will be handled by caller)
+        """
+        return requests.post(
+            url,
+            headers=self._headers(),
+            json=payload,
+            timeout=self.timeout
+        )
+    
+    async def create_task(
+        self, 
+        model_id: str,
+        payload: Dict[str, Any]
+    ) -> Dict[str, Any]:
+        """
+        Create task using category-specific endpoint.
+        
+        Args:
+            model_id: Model identifier (used to route to correct API)
+            payload: Request payload (already formatted for specific category)
+        
+        Returns:
+            Task creation response with taskId
+        """
+        category = get_api_category_for_model(model_id, self.source_v4)
+        if not category:
+            return {
+                "error": f"Unknown model category for {model_id}",
+                "state": "fail"
+            }
+        
+        base_url = get_base_url_for_category(category, self.source_v4)
+        endpoint = get_api_endpoint_for_model(model_id, self.source_v4)
+        
+        # Полный URL для category-specific API
+        url = f"{base_url}{endpoint}"
+        
+        logger.info(
+            f"🚀 CREATE TASK | Model: {model_id} | Category: {category} | "
+            f"URL: POST {url} | "
+            f"Payload keys: {list(payload.keys())}"
+        )
+        logger.debug(f"Full payload: {payload}")
+        
+        try:
+            response = await asyncio.to_thread(
+                self._make_request,
+                url,
+                payload
+            )
+            
+            logger.info(
+                f"✅ RESPONSE | Status: {response.status_code} | "
+                f"Body preview: {response.text[:200]}"
+            )
+            logger.debug(f"Full response: {response.text}")
+            
+            response.raise_for_status()
+            result = response.json()
+            
+            # Проверяем если результат вообще валидный JSON
+            if not isinstance(result, dict):
+                logger.error(f"❌ Invalid response format: {type(result)}")
+                return {"error": "Invalid response format", "state": "fail"}
+            
+            # Проверяем успешность в коде ответа
+            response_code = result.get('code')
+            if response_code and response_code >= 400:
+                # API вернула ошибку
+                error_msg = result.get('msg', 'Unknown error')
+                logger.error(f"❌ API Error: Code {response_code} - {error_msg}")
+                return {
+                    "error": error_msg,
+                    "code": response_code,
+                    "state": "fail"
+                }
+            
+            # Логируем taskId если есть
+            task_id = result.get('data', {}).get('taskId') or result.get('taskId')
+            if task_id:
+                logger.info(f"📝 Task created successfully | TaskID: {task_id}")
+                return result
+            
+            # Если нет taskId и нет ошибки - это тоже ошибка
+            logger.warning(f"⚠️ No taskId in response: {result}")
+            return {
+                "error": "No taskId in response",
+                "response": result,
+                "state": "fail"
+            }
+            
+        except requests.RequestException as exc:
+            # RequestException includes ConnectionError, Timeout, etc.
+            # _make_request already retries these, so if we get here, all retries failed
+            error_type = type(exc).__name__
+            error_msg = str(exc)
+            
+            logger.error(
+                f"❌ CREATE TASK FAILED (after retries) | Model: {model_id} | "
+                f"Error: {error_type}: {error_msg} | "
+                f"URL: {url}",
+                exc_info=True
+            )
+            
+            # Classify error for better user message
+            if isinstance(exc, requests.Timeout):
+                user_friendly = "Превышено время ожидания ответа от сервера. Попробуйте позже."
+            elif isinstance(exc, requests.ConnectionError):
+                user_friendly = "Ошибка подключения к серверу. Проверьте интернет-соединение."
+            else:
+                user_friendly = f"Ошибка сети: {error_type}"
+            
+            return {
+                "error": error_msg,
+                "error_type": error_type,
+                "user_friendly": user_friendly,
+                "state": "fail"
+            }
+    
+    async def get_record_info(self, task_id: str) -> Dict[str, Any]:
+        """
+        Get task record info (status checking).
+        Этот endpoint все еще универсальный.
+        
+        Args:
+            task_id: Task ID from create_task
+        
+        Returns:
+            Task status and results
+        """
+        url = "https://api.kie.ai/api/v1/jobs/recordInfo"
+        params = {"taskId": task_id}
+        
+        max_retries = 3
+        for attempt in range(max_retries):
+            try:
+                response = await asyncio.to_thread(
+                    requests.get,
+                    url,
+                    headers=self._headers(),
+                    params=params,
+                    timeout=self.timeout
+                )
+                
+                response.raise_for_status()
+                return response.json()
+                
+            except requests.RequestException as exc:
+                logger.warning(f"recordInfo attempt {attempt+1}/{max_retries} failed: {exc}")
+                if attempt == max_retries - 1:
+                    logger.error(f"Get record info failed: {exc}", exc_info=True)
+                    return {"error": str(exc), "state": "fail"}
+                await asyncio.sleep(1 * (attempt + 1))
+    
+    async def poll_task_until_complete(
+        self,
+        task_id: str,
+        max_wait_seconds: int = 300,
+        poll_interval: float = 3.0
+    ) -> Dict[str, Any]:
+        """
+        Poll task until completion.
+        
+        Args:
+            task_id: Task ID
+            max_wait_seconds: Maximum wait time
+            poll_interval: Seconds between polls
+        
+        Returns:
+            Final task data
+        """
+        start_time = asyncio.get_event_loop().time()
+        attempts = 0
+        
+        while True:
+            elapsed = asyncio.get_event_loop().time() - start_time
+            if elapsed > max_wait_seconds:
+                logger.error(f"Task {task_id} timed out after {elapsed:.1f}s")
+                return {
+                    "error": "Task timeout",
+                    "state": "timeout",
+                    "taskId": task_id,
+                    "elapsed_seconds": elapsed
+                }
+            
+            attempts += 1
+            record = await self.get_record_info(task_id)
+            
+            if 'error' in record:
+                return record
+            
+            state = record.get('state', '').lower()
+            logger.info(f"Poll #{attempts} ({elapsed:.1f}s): task {task_id} state={state}")
+            
+            if state in ['success', 'completed', 'done']:
+                logger.info(f"Task {task_id} completed successfully after {elapsed:.1f}s")
+                return record
+            
+            if state in ['fail', 'failed', 'error']:
+                logger.error(f"Task {task_id} failed: {record}")
+                return record
+            
+            # Still processing
+            await asyncio.sleep(poll_interval)

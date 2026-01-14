@@ -1,0 +1,16 @@
+[project]
+name = "bb-hacker-scanner"
+version = "1.0.0"
+description = "BetBoom Hacker Scanner - Live Table Tennis Signal Finder"
+requires-python = ">=3.10"
+dependencies = [
+    "playwright>=1.40.0",
+    "textual>=0.60.0",
+    "winotify>=0.19",
+    "pyperclip>=1.8.2",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+

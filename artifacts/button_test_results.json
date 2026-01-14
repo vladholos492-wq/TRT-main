@@ -1,0 +1,626 @@
+{
+  "summary": {
+    "total": 87,
+    "passed": 0,
+    "failed": 0,
+    "skipped": 87,
+    "blocked_external_calls": 0,
+    "mocked_external_calls": 0
+  },
+  "results": {
+    "passed": [],
+    "failed": [],
+    "skipped": [
+      {
+        "callback_data": "admin:models",
+        "button_text": "◀️ Назад к моделям",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "admin:users",
+        "button_text": "🎨 Управление моделями",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "admin:analytics",
+        "button_text": "🎨 Управление моделями",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "admin:log",
+        "button_text": "👥 Управление пользователями",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "admin:close",
+        "button_text": "📊 Аналитика",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "admin:models:list_free",
+        "button_text": "🎁 Список бесплатных",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "admin:models:add_free",
+        "button_text": "🎁 Список бесплатных",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "admin:models:resync",
+        "button_text": "🎁 Список бесплатных",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "admin:models:stats",
+        "button_text": "📈 Топ моделей",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "admin:models:broken",
+        "button_text": "� Ресинк моделей из Kie API",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "admin:main",
+        "button_text": "◀️ Назад",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "admin:users:find",
+        "button_text": "🔍 Найти пользователя",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "admin:users:topup",
+        "button_text": "🔍 Найти пользователя",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "admin:users:charge",
+        "button_text": "🔍 Найти пользователя",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "admin:users:ban",
+        "button_text": "💰 Начислить баланс",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "admin:analytics:errors",
+        "button_text": "📈 Топ моделей",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "admin_stats",
+        "button_text": "📊 Statistics",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin_router.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "admin_logs_24h",
+        "button_text": "📊 Statistics",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin_router.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "admin_models",
+        "button_text": "📊 Statistics",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin_router.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "admin_health",
+        "button_text": "❌ Error Logs (last 24h)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin_router.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "admin_cleanup",
+        "button_text": "🔧 Model Management",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\admin_router.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "balance:topup",
+        "button_text": "💳 Пополнить",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "history:main",
+        "button_text": "🎨 Новая генерация",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "marketing:main",
+        "button_text": "◀️ В меню",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "topup:amount:100",
+        "button_text": "100₽",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "topup:amount:500",
+        "button_text": "100₽",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "topup:amount:1000",
+        "button_text": "1000₽",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "topup:amount:5000",
+        "button_text": "1000₽",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "balance:main",
+        "button_text": "🎨 Новая генерация",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "topup:paid",
+        "button_text": "✅ Я оплатил(а)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\balance.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "main_menu",
+        "button_text": "🔄 Попробовать снова",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "menu:support",
+        "button_text": "🚀 Генерация",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\zero_silence.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "cat:{category}",
+        "button_text": "N/A (dynamic)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "cat:{cat_id}",
+        "button_text": "N/A (dynamic)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "menu:best",
+        "button_text": "⭐ Лучшие модели",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "menu:search",
+        "button_text": "🔎 Новый поиск",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "quick:menu",
+        "button_text": "◀️ Назад",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\quick_actions.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "gallery:trending",
+        "button_text": "◀️ Назад",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "gallery:free",
+        "button_text": "🔥 Популярное",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "menu:categories",
+        "button_text": "📂 Все категории",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "menu:balance",
+        "button_text": "🚀 Генерация",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\zero_silence.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "menu:history",
+        "button_text": "🧾 История генераций",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "menu:help",
+        "button_text": "📜 История",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "help:free",
+        "button_text": "🆓 Как получить бесплатные генерации?",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "help:topup",
+        "button_text": "🆓 Как получить бесплатные генерации?",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "help:pricing",
+        "button_text": "🆓 Как получить бесплатные генерации?",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "help:errors",
+        "button_text": "💳 Как пополнить баланс?",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "cat:text-to-video",
+        "button_text": "🎬 Видео (Reels/TikTok/Ads)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "cat:text-to-image",
+        "button_text": "🎬 Видео (Reels/TikTok/Ads)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "cat:upscale",
+        "button_text": "🎬 Видео (Reels/TikTok/Ads)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "cat:text-to-speech",
+        "button_text": "🖼️ Картинка (баннер/пост/креатив)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "menu:free",
+        "button_text": "🔎 Все модели (по категориям)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "model:{model_id}",
+        "button_text": "N/A (dynamic)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "page:{back_cb}:{page-1}",
+        "button_text": "N/A (dynamic)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "noop",
+        "button_text": "⚠️ Аудио модели скоро появятся",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "page:{back_cb}:{page+1}",
+        "button_text": "N/A (dynamic)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "gen:{model_id}",
+        "button_text": "N/A (dynamic)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "enum:{val}",
+        "button_text": "N/A (dynamic)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "model:{model['model_id']}",
+        "button_text": "N/A (dynamic)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "cat:{cat}",
+        "button_text": "N/A (dynamic)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "repeat:{idx}",
+        "button_text": "N/A (dynamic)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "opt_start:{opt_field}",
+        "button_text": "N/A (dynamic)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "opt_skip_all",
+        "button_text": "✅ Готово, перейти к подтверждению",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "confirm",
+        "button_text": "✅ Запустить",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "cancel",
+        "button_text": "✅ Запустить",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "menu:generate",
+        "button_text": "🚀 Генерация",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\zero_silence.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "gen:{flow_ctx.model_id}",
+        "button_text": "N/A (dynamic)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\flow.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "gallery:show:{model_id}",
+        "button_text": "N/A (dynamic)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "example:use:{model_id}:{idx}",
+        "button_text": "N/A (dynamic)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\gallery.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "history:gallery",
+        "button_text": "🖼️ Просмотр галереи",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\history.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "history:transactions",
+        "button_text": "📊 История транзакций",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\history.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "mcat:{cat_key}",
+        "button_text": "N/A (dynamic)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "marketing:free",
+        "button_text": "🎁 Бесплатно попробовать",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "mmodel:{model_id}",
+        "button_text": "N/A (dynamic)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "mcat_page:{cat_key}:1",
+        "button_text": "N/A (dynamic)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "mcat_page:{cat_key}:{page-1}",
+        "button_text": "N/A (dynamic)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "mcat_page:{cat_key}:{page+1}",
+        "button_text": "N/A (dynamic)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "mgen:start:{model_id}",
+        "button_text": "N/A (dynamic)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "mgen:confirm",
+        "button_text": "✅ Подтвердить",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\marketing.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "quick:action:{action_id}",
+        "button_text": "N/A (dynamic)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\quick_actions.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "model:{model['id']}",
+        "button_text": "N/A (dynamic)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\quick_actions.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "quick:examples:{action_id}",
+        "button_text": "N/A (dynamic)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\quick_actions.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "quick:use:{action_id}:{idx}",
+        "button_text": "N/A (dynamic)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\quick_actions.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "gen:{recommended_model}",
+        "button_text": "N/A (dynamic)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\quick_actions.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "model:{recommended_model}",
+        "button_text": "N/A (dynamic)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\quick_actions.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "zimage:ratio:{ratio}",
+        "button_text": "N/A (dynamic)",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      },
+      {
+        "callback_data": "zimage:start",
+        "button_text": "🔄 Попробовать снова",
+        "file": "C:\\Users\\User\\Desktop\\5656-main\\bot\\handlers\\z_image.py",
+        "message": "SKIPPED (aiogram not available)",
+        "handler_name": null
+      }
+    ]
+  },
+  "blocked_calls": []
+}
